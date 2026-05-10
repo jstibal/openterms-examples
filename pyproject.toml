@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openterms-examples"
+version = "0.1.0"
+description = "Usage examples for the OpenTerms protocol and SDKs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["openterms-py>=0.3.1"]
+
+[project.optional-dependencies]
+langchain = ["langchain-openterms"]
+crewai = ["crewai-openterms"]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

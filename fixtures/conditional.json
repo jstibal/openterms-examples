@@ -1,0 +1,36 @@
+{
+  "$schema": "https://openterms.com/schema/openterms.schema.json",
+  "version": "1.0",
+  "service": "example-conditional-service",
+  "last_updated": "2026-01-01",
+  "permissions": {
+    "read_content": {
+      "status": "conditional",
+      "notes": "read_content is conditional in this local fixture."
+    },
+    "scrape_data": {
+      "status": "conditional",
+      "notes": "scrape_data is conditional in this local fixture."
+    },
+    "api_access": {
+      "status": "conditional",
+      "notes": "api_access is conditional in this local fixture."
+    },
+    "create_account": {
+      "status": "conditional",
+      "notes": "create_account is conditional in this local fixture."
+    },
+    "make_purchases": {
+      "status": "conditional",
+      "notes": "make_purchases is conditional in this local fixture."
+    },
+    "post_content": {
+      "status": "conditional",
+      "notes": "post_content is conditional in this local fixture."
+    },
+    "allow_training": {
+      "status": "conditional",
+      "notes": "allow_training is conditional in this local fixture."
+    }
+  }
+}

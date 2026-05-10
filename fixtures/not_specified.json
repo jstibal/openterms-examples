@@ -1,0 +1,36 @@
+{
+  "$schema": "https://openterms.com/schema/openterms.schema.json",
+  "version": "1.0",
+  "service": "example-not-specified-service",
+  "last_updated": "2026-01-01",
+  "permissions": {
+    "read_content": {
+      "status": "not_specified",
+      "notes": "read_content is not_specified in this local fixture."
+    },
+    "scrape_data": {
+      "status": "not_specified",
+      "notes": "scrape_data is not_specified in this local fixture."
+    },
+    "api_access": {
+      "status": "not_specified",
+      "notes": "api_access is not_specified in this local fixture."
+    },
+    "create_account": {
+      "status": "not_specified",
+      "notes": "create_account is not_specified in this local fixture."
+    },
+    "make_purchases": {
+      "status": "not_specified",
+      "notes": "make_purchases is not_specified in this local fixture."
+    },
+    "post_content": {
+      "status": "not_specified",
+      "notes": "post_content is not_specified in this local fixture."
+    },
+    "allow_training": {
+      "status": "not_specified",
+      "notes": "allow_training is not_specified in this local fixture."
+    }
+  }
+}

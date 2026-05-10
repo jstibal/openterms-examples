@@ -1,0 +1,36 @@
+{
+  "$schema": "https://openterms.com/schema/openterms.schema.json",
+  "version": "1.0",
+  "service": "example-allow-service",
+  "last_updated": "2026-01-01",
+  "permissions": {
+    "read_content": {
+      "status": "allowed",
+      "notes": "read_content is allowed in this local fixture."
+    },
+    "scrape_data": {
+      "status": "allowed",
+      "notes": "scrape_data is allowed in this local fixture."
+    },
+    "api_access": {
+      "status": "allowed",
+      "notes": "api_access is allowed in this local fixture."
+    },
+    "create_account": {
+      "status": "allowed",
+      "notes": "create_account is allowed in this local fixture."
+    },
+    "make_purchases": {
+      "status": "allowed",
+      "notes": "make_purchases is allowed in this local fixture."
+    },
+    "post_content": {
+      "status": "allowed",
+      "notes": "post_content is allowed in this local fixture."
+    },
+    "allow_training": {
+      "status": "allowed",
+      "notes": "allow_training is allowed in this local fixture."
+    }
+  }
+}

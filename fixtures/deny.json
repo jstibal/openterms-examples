@@ -1,0 +1,36 @@
+{
+  "$schema": "https://openterms.com/schema/openterms.schema.json",
+  "version": "1.0",
+  "service": "example-deny-service",
+  "last_updated": "2026-01-01",
+  "permissions": {
+    "read_content": {
+      "status": "denied",
+      "notes": "read_content is denied in this local fixture."
+    },
+    "scrape_data": {
+      "status": "denied",
+      "notes": "scrape_data is denied in this local fixture."
+    },
+    "api_access": {
+      "status": "denied",
+      "notes": "api_access is denied in this local fixture."
+    },
+    "create_account": {
+      "status": "denied",
+      "notes": "create_account is denied in this local fixture."
+    },
+    "make_purchases": {
+      "status": "denied",
+      "notes": "make_purchases is denied in this local fixture."
+    },
+    "post_content": {
+      "status": "denied",
+      "notes": "post_content is denied in this local fixture."
+    },
+    "allow_training": {
+      "status": "denied",
+      "notes": "allow_training is denied in this local fixture."
+    }
+  }
+}
