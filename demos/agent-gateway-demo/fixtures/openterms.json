@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "domain": "local-vendor-demo",
+  "permissions": {
+    "read_content": {
+      "decision": "allow",
+      "reason": "Public product overview may be read by automated agents."
+    },
+    "scrape_pricing": {
+      "decision": "deny",
+      "reason": "Pricing extraction is not permitted for automated agents."
+    },
+    "submit_contact_form": {
+      "decision": "deny",
+      "reason": "Automated form submission is not permitted."
+    }
+  }
+}

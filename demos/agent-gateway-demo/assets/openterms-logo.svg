@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="OpenTerms logo">
+  <rect width="96" height="96" rx="24" fill="#101827"/>
+  <circle cx="48" cy="48" r="28" fill="none" stroke="#7dd3fc" stroke-width="7"/>
+  <path d="M31 49h34M49 31v34" stroke="#a7f3d0" stroke-width="7" stroke-linecap="round"/>
+</svg>
